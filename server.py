@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, send_from_directory
 import os, requests, base64app = Flask(__name__, template_folder='.')
+
 app = Flask(__name__)
 
 # Free Fire connection aur panel ka logic yahan chalega
