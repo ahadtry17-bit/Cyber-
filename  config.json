@@ -1,8 +1,0 @@
-{
-  "panel_name": "Tiger FF Panel",
-  "owner": "Raja Ahad",
-  "security_key": "tiger_secret_999",
-  "database": "sqlite:///ff_panel.db",
-  "free_fire_api": "https://api.freefire-connect.com/v1/"
-}
-```
