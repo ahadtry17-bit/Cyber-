@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIGER FF VIP Panel</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #00ff00;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00ff00;
+            max-width: 400px;
+            margin: auto;
+        }
+        hh1 { color: #ff0055; }
+        .switch {
+            margin: 15px 0;
+            font-size: 18px;
+        }
+        input[type="checkbox"] {
+            transform: scale(1.5);
+            margin-left: 10px;
+        }
+        button {
+            background: #ff0055;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover { background: #ff2277; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>TIGER FF PANEL V1</h1>
+        <p>Railway & Android Edition 🚂💨</p>
+        
+        <div class="switch">
+            <label>Aim Bot 90%: <input type="checkbox" id="aimbot"></label>
+        </div>
+        
+        <div class="switch">
+            <label>Headshot Rate 100%: <input type="checkbox" id="headshot"></label>
+        </div>
+
+        <div class="switch">
+            <label>No Recoil: <input type="checkbox" id="norecoil"></label>
+        </div>
+
+        <button onclick="activatePanel()">APPLY HACK</button>
+    </div>
+
+    <script>
+        function activatePanel() {
+            let aim = document.getElementById('aimbot').checked;
+            let hs = document.getElementById('headshot').checked;
+            let rec = document.getElementById('norecoil').checked;
+
+            if(aim || hs || rec) {
+                alert("TIGER CHEAT ACTIVATED! Free Fire me ghus jao, ab koi nahi bachega!");
+            } else {
+                alert("Pehle koi feature select to kar, mere bhai!");
+            }
+        }
+    </script>
+
+</body>
+</html>
+```
+
+---
